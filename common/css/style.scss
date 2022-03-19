@@ -1261,20 +1261,23 @@ img {
         align-items: flex-end;
         padding-bottom: 30px;
 
+        @include sp {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+        }
+
+
         dl {
-          @include sp {
-            width: 160px;
-          }
-
-
           width: 200px;
-
-
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
 
+          @include sp {
+            margin: 30px 0 auto;
+          }
 
           dt {
             font-weight: 400;
