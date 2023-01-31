@@ -21,19 +21,9 @@ body {
   color: #ffffff;
   margin: 40px 0;
   display: inline-block;
+  font-size: 24px;
 }
 
-@media not all and (min-width: 768px) {
-  .item {
-    width: 100%;
-  }
-  .item:not(:nth-child(3n+3)) {
-    margin-right: 0;
-  }
-  .item:nth-child(n+2) {
-    margin-top: 30px;
-  }
-}
 
 
 @media screen and (max-width: 765px) {
@@ -72,7 +62,7 @@ body {
 
 @media screen and (max-width: 765px) {
   .main .contact .inquiryArea h2 {
-    font-size: 24px;
+    font-size: 48px;
   }
 }
 
@@ -83,7 +73,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 80%;
+  margin:auto;
+  text-align:center
 }
 
 @media screen and (max-width: 765px) {
@@ -98,13 +90,13 @@ body {
 
 .main .contact .inquiryAreaBoxInner dt {
   color: #35BC93;
-  font-size: 24px;
+  font-size: 48px;
   padding-bottom: 15px;
 }
 
 .main .contact .inquiryAreaBoxInner dt span {
   color: #333333;
-  font-size: 16px;
+  font-size: 48px;
   font-weight: 400;
 }
 
